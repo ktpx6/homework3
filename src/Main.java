@@ -9,12 +9,12 @@ public class Main {
         float t = 2.7f;
         double y = -1.1;
 
-        System.out.println(q);
-        System.out.println(w);
-        System.out.println(e);
-        System.out.println(x);
-        System.out.println(t);
-        System.out.println(y);
+        System.out.println("Значение переменной q с типом int равно " + q);
+        System.out.println("Значение переменной w с типом int равно " + w);
+        System.out.println("Значение переменной e с типом int равно " + e);
+        System.out.println("Значение переменной x с типом int равно " + x);
+        System.out.println("Значение переменной t с типом int равно " + t);
+        System.out.println("Значение переменной y с типом int равно " + y);
 
         System.out.println ("Задача 2");
 
@@ -46,11 +46,12 @@ public class Main {
 
         System.out.println ("Задача 4");
 
-        int bottlesPerMinute = 8;
+        int bottlesPer2Minute = 16;
         int minutesPerHour = 60;
         int hoursPerDay = 24;
         int daysPerMonth = 30;
 
+        int bottlesPerMinute = bottlesPer2Minute / 2;
         int bottlesIn20Minutes = bottlesPerMinute * 20;
         int bottlesPerDay = bottlesPerMinute * minutesPerHour * hoursPerDay;
         int bottlesIn3Days = bottlesPerDay * 3;
