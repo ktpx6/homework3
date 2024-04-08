@@ -1,5 +1,6 @@
 public class Main {
     public static void main(String[] args) {
+hw3
         System.out.println ("Задача 1");
 
         int q = 3000000;
@@ -133,6 +134,6 @@ public class Main {
         System.out.println("Маша теперь получает " + mashaNewSalary + " рублей. Годовой доход вырос на " + mashaAnnualIncrease + " рублей.");
         System.out.println("Денис теперь получает " + denisNewSalary + " рублей. Годовой доход вырос на " + denisAnnualIncrease + " рублей.");
         System.out.println("Кристина теперь получает " + kristinaNewSalary + " рублей. Годовой доход вырос на " + kristinaAnnualIncrease + " рублей.");
-
+        System.out.println("хай Мир!");
     }
 }
